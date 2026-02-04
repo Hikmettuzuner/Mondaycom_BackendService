@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const API_URL = 'https://api.monday.com/v2';
 const API_KEY = process.env.MONDAY_API_KEY;
-const BOARD_ID = 1397412067;
+const BOARD_ID = ;
 
 const headers = {
   'Authorization': API_KEY,
