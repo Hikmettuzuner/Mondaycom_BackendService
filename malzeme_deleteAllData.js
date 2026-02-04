@@ -2,7 +2,7 @@ require('dotenv').config();
 const axios = require('axios');
 
 const API_KEY = process.env.MONDAY_API_KEY;
-const BOARD_ID = 1908914001;
+const BOARD_ID = ;
 
 const headers = {
   'Authorization': API_KEY,
