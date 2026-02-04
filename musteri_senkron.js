@@ -23,7 +23,7 @@ try {
 //#region Monday.com API AYARLARI
 const API_URL = 'https://api.monday.com/v2';
 const API_KEY = process.env.MONDAY_API_KEY;
-const MUSTERI_BOARD_ID = 1397412067; // MÜŞTERİ BOARD ID'NİZİ GÜNCELLEYİN
+const MUSTERI_BOARD_ID = ; // MÜŞTERİ BOARD ID'NİZİ GÜNCELLEYİN
 
 const headers = {
   'Authorization': API_KEY,
