@@ -31,7 +31,7 @@ try {
 //#region Monday.com API AYARLARI
 const API_URL = 'https://api.monday.com/v2'; // Monday.com API endpoint
 const API_KEY = process.env.MONDAY_API_KEY; // .env'den API anahtarı
-const BOARD_ID = 1908914001; // Çalışılacak board ID
+const BOARD_ID = ; // Çalışılacak board ID
 
 // API istekleri için headers ayarları
 const headers = {
