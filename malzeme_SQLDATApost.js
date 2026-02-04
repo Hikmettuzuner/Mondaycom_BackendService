@@ -5,7 +5,7 @@ const axios = require('axios');
 //#region Monday.com API URL ve headers AYARLARI
 const API_URL = 'https://api.monday.com/v2';
 const API_KEY = process.env.MONDAY_API_KEY;
-const BOARD_ID = 1908914001;
+const BOARD_ID = ;
 
 const headers = {
   'Authorization': API_KEY,
