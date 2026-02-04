@@ -1,0 +1,4 @@
+{
+    "debug.javascript.automaticallyTunnelRemoteServer": true,
+    "debug.javascript.unmapMissingSources": false
+}

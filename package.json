@@ -1,0 +1,37 @@
+{
+  "name": "malzeme_senkron",
+  "version": "1.0.0",
+  "main": "malzeme_senkron.js",
+  "bin": "malzeme_senkron.js",
+  "scripts": {
+    "start": "node malzeme_senkron.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "exceljs": "^4.4.0",
+    "mssql": "^11.0.1",
+    "nodemailer": "^6.10.1",
+    "uuid": "^11.1.0"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/axios/**/*",
+      "node_modules/dotenv/**/*",
+      "node_modules/mssql/**/*",
+      "node_modules/uuid/**/*",
+      "node_modules/nodemailer/**/*",
+      "node_modules/exceljs/**/*",
+      ".env",
+      "veri.xlsx"
+    ],
+    "targets": [
+       "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  }
+}
