@@ -33,8 +33,8 @@ async function getBoardColumns(boardId) {
 
 // Kullanım örneği
 async function main() {
-  //const boardId = 1908914001; // Malzeme Board ID
-  const boardId = 1397412067; // Müşteri Board ID
+  //const boardId = ; // Malzeme Board ID
+  const boardId = ; // Müşteri Board ID
 
   const columns = await getBoardColumns(boardId);
   
